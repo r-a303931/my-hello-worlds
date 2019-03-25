@@ -127,8 +127,8 @@ void primeGeneratorThread(fstream* file, char id) {
 			}
 		}
 
-		threadStatus[id] = true;
 		run[id] = false;
+		threadStatus[id] = true;
 	}
 }
 
