@@ -18,6 +18,12 @@ The C++ one is rather important, as it contains the helper program 'generatestar
 
 To compile the C++, navigate to the C++ directory and run `g++ -pthread primegenerator.cpp -o primegenerator` for the prime generator, and `g++ generatestarterprimefile.cpp -o generatestarterprimefile` for the helper utility
 
+## C++ v2
+
+This one does not need a starter file and is much simpler to build, as it now uses make
+
+Just go to cpp2 and run `make`
+
 ## Rust
 
 Navigate to the directory and run `cargo build`
